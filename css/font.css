@@ -1,0 +1,132 @@
+@charset "utf-8";
+/**
+ * KBS Web Font Style
+ * @author KBS Media Webpublisher
+ * @version 1.0
+ * @date 2021-06-10
+ * @copyright Copyright (c) KBS Media. All right reserved.
+ **/
+ @font-face {
+	font-family: 'Noto Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(./font/woff/NotoSansKR-Thin.woff2) format('woff2'),
+		 url(./font/woff/NotoSansKR-Thin.woff) format('woff'),
+		 url(./font/otf/NotoSansKR-Thin.otf) format('opentype');
+  }
+  @font-face {
+	font-family: 'Noto Sans KR';
+	font-style: normal;
+	font-weight: 300;
+	src: url(./font/woff/NotoSansKR-Light.woff2) format('woff2'),
+		 url(./font/woff/NotoSansKR-Light.woff) format('woff'),
+		 url(./font/otf/NotoSansKR-Light.otf) format('opentype');
+  }
+  @font-face {
+	 font-family: 'Noto Sans KR';
+	 font-style: normal;
+	 font-weight: 400;
+	 src: url(./font/woff/NotoSansKR-Regular.woff2) format('woff2'),
+		  url(./font/woff/NotoSansKR-Regular.woff) format('woff'),
+		  url(./font/otf/NotoSansKR-Regular.otf) format('opentype');
+   }
+  @font-face {
+	 font-family: 'Noto Sans KR';
+	 font-style: normal;
+	 font-weight: 500;
+	 src: url(./font/woff/NotoSansKR-Medium.woff2) format('woff2'),
+		  url(./font/woff/NotoSansKR-Medium.woff) format('woff'),
+		  url(./font/otf/NotoSansKR-Medium.otf) format('opentype');
+   }
+  @font-face {
+	 font-family: 'Noto Sans KR';
+	 font-style: normal;
+	 font-weight: 700;
+	 src: url(./font/woff/NotoSansKR-Bold.woff2) format('woff2'),
+		  url(./font/woff/NotoSansKR-Bold.woff) format('woff'),
+		  url(./font/otf/NotoSansKR-Bold.otf) format('opentype');
+   }
+  @font-face {
+	 font-family: 'Noto Sans KR';
+	 font-style: normal;
+	 font-weight: 900;
+	 src: url(./font/woff/NotoSansKR-Black.woff2) format('woff2'),
+		  url(./font/woff/NotoSansKR-Black.woff) format('woff'),
+		  url(./font/otf/NotoSansKR-Black.otf) format('opentype');
+   } 
+   @font-face {
+	font-family: 'faktum';
+	font-style: thin;
+	font-weight: 100;
+	src:url(./font/woff/Faktum-Thin.woff2) format('woff2'),
+		url(./font/woff/Faktum-Thin.woff) format('woff');
+  }
+   @font-face {
+	font-family: 'faktum';
+	font-style: light;
+	font-weight: 300;
+	src:url(./font/woff/Faktum-Light.woff2) format('woff2'),
+		url(./font/woff/Faktum-Light.woff) format('woff');
+  }
+  @font-face {
+	font-family: 'faktum';
+	font-style: normal;
+	font-weight: 400;
+	src:url(./font/woff/Faktum-Regular.woff2) format('woff2'),
+		url(./font/woff/Faktum-Regular.woff) format('woff'), 
+		url(./font/otf/Faktum-Regular.otf) format('opentype');
+  }
+  @font-face {
+	font-family: 'faktum';
+	font-style: medium;
+	font-weight: 500;
+	src:url(./font/woff/Faktum-Medium.woff2) format('woff2'),
+		url(./font/woff/Faktum-Medium.woff) format('woff');
+  }
+  @font-face {
+	font-family: 'faktum';
+	font-style: bold;
+	font-weight: 700;
+	src:url(./font/woff/Faktum-Bold.woff2) format('woff2'),
+		url(./font/woff/Faktum-Bold.woff) format('woff'),  
+		url(./font/otf/Faktum-Bold.otf) format('opentype');
+  } 
+  @font-face {
+	font-family: 'faktum';
+	font-weight: 900;
+	src:url(./font/woff/Faktum-ExtraBold.woff2) format('woff2'),
+		url(./font/woff/Faktum-ExtraBold.woff) format('woff');
+  } 
+  @font-face {
+	font-family: 'editorial';
+	font-weight: 300;
+	src:url(./font/otf/PPEditorialNew-Ultralight.otf) format('opentype');
+  } 
+  @font-face {
+	font-family: 'editorial italic';
+	font-weight: 300;
+	src:url(./font/otf/PPEditorialNew-UltralightItalic.otf) format('opentype');
+  } 
+  @font-face {
+	font-family: 'editorial italic';
+	font-weight: 400;
+	src:url(./font/otf/PPEditorialNew-Italic.otf) format('opentype');
+  } 
+  @font-face {
+	font-family: 'editorial';
+	font-weight: 400;
+	src:url(./font/otf/PPEditorialNew-Regular.otf) format('opentype');
+  } 
+  @font-face {
+	font-family: 'editorial';
+	font-weight: 500;
+	src:url(./font/otf/PPEditorialNew-Ultrabold.otf) format('opentype');
+  } 
+  @font-face {
+	font-family: 'editorial italic';
+	font-weight: 500;
+	src:url(./font/otf/PPEditorialNew-UltraboldItalic.otf) format('opentype');
+  } 
+
+
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,div,span,strong,table,thead,tbody,tr,th,td,form,fieldset,legend,input,textarea,button{font-family:'faktum','Noto Sans KR','Apple SD Gothic Neo','애플 SD 산돌고딕 Neo','Helvetica Neue','Roboto','sans-serif';}
